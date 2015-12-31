@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+       "title":  "Article Title 1",
+       "description": "use this for the content. It can include html.",
+       "url": "http://example.com/article4?this&that",
+       "categories": ["Category 1","Category 2","Category 3","Category 4"],  
+       "author": "Corban Baxter",  
+       "createdAt": "May 27, 2014"
+    },
+    {
+       "title":  "Article Title 2",
+       "description": "use this for the content. It can include html.",
+       "url": "http://example.com/article4?this&that",
+       "categories": ["Category 1","Category 2","Category 3","Category 4"],  
+       "author": "Corban Baxter",  
+       "createdAt": "May 24, 2014"
+    }
+  ]
+}
