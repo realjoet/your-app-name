@@ -9,7 +9,7 @@ var config = {
       name: 'bdw-blog'
     },
     port: 3000,
-    db: 'mongodb://localhost/bdw-blog-development'
+    db: 'mongodb://heroku_ch5chkv8:plicaiuapp42g036hs53lbh89p@ds037165.mongolab.com:37165/heroku_ch5chkv8'
   },
 
   test: {
@@ -26,8 +26,8 @@ var config = {
     app: {
       name: 'bdw-blog'
     },
-    port: 3000,
-    db: 'mongodb://localhost/bdw-blog-production'
+    port: process.env.PORT,
+    db: process.env.MONGOLAB_URI
   }
 };
 
