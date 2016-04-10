@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
   nodemon = require('gulp-nodemon'),
+  plumber = require('gulp-plumber'),
   livereload = require('gulp-livereload'),
-  sass = require('gulp-sass');
+  sass = require('gulp-ruby-sass');
 
 gulp.task('sass', function () {
   return sass('./app/styles/*.scss')

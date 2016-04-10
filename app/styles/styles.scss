@@ -1,0 +1,26 @@
+/* 
+Make sure you import files in order (from top to bottom), based on what other files will need.
+  
+For example, my variables file may need a font I imported, so typography is imported first... 
+My mixins file probably needs a variable and possibly a font I imported, so my variables and typography files are imported before my mixins file...
+My globals file probably needs something from all three of the previously imported files, etc.
+*/
+
+@import "base/typography";
+@import "base/variables";
+@import "base/mixins";
+@import "base/globals";
+@import "base/elements";
+@import "layout/header";
+@import "layout/footer";
+@import "views/home";
+@import "views/profile";
+@import "views/404-error";
+
+@media (min-width: $break-one) {
+  //@import $break-one responsive files here
+}
+
+@media (min-width: $break-two) {
+  //@import $break-two responsive files here
+}
